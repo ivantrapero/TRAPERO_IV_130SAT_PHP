@@ -1,4 +1,3 @@
-
 <x-layout>
     <x-slot:heading>
         Create Job
@@ -37,7 +36,6 @@
         </div>
         <div class="mt-6 flex items-center justify-end gap-x-6">
             <button type="button" class="text-sm font-semibold leading-6 text-gray-900">Cancel</button>
-            <button type="submit" class="px-4 py-2 bg-blue-600 text-white rounded">Save</button>
             <x-form-button>Save</x-form-button>
         </div>
     </form>
