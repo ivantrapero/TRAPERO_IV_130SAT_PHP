@@ -1,3 +1,4 @@
+
 <x-layout>
     <x-slot:heading>
         Register
@@ -53,7 +54,7 @@
                         <x-form-label for="password_confirmation">Confirm Password</x-form-label>
 
                         <div class="mt-2">
-                            <x-form-input name="password_confirmation" id="password_confirmation" type="password_confirmation" required />
+                            <x-form-input name="password_confirmation" id="password_confirmation" type="password" required />
 
                             <x-form-error name="password_confirmation" />
                         </div>
@@ -64,6 +65,7 @@
 
         <div class="mt-6 flex items-center justify-end gap-x-6">
             <a href="/" class="text-sm font-semibold leading-6 text-gray-900">Cancel</a>
+            <a href="/" class="px-4 py-2 bg-blue-600 text-white rounded">Register</a>
             <x-form-button>Register</x-form-button>
         </div>
     </form>

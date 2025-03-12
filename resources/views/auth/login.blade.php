@@ -1,4 +1,3 @@
-
 <x-layout>
     <x-slot:heading>
         Log In
@@ -14,7 +13,7 @@
                         <x-form-label for="email">Email</x-form-label>
 
                         <div class="mt-2">
-                            <x-form-input name="email" id="email" type="email" required />
+                            <x-form-input name="email" id="email" type="email" :value="old('email')" required />
 
                             <x-form-error name="email" />
                         </div>
@@ -35,6 +34,7 @@
 
         <div class="mt-6 flex items-center justify-end gap-x-6">
             <a href="/" class="text-sm font-semibold leading-6 text-gray-900">Cancel</a>
+            <a href="/" class="px-4 py-2 bg-blue-600 text-white rounded">Log In</a>
             <x-form-button>Log In</x-form-button>
         </div>
     </form>
